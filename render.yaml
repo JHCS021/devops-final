@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: hola-devops
+    name: devops-final
     env: docker
     plan: free
     autoDeploy: false
     docker:
-      image: tuusuario/hola-devops:latest
+      image: joseh24/devops-final:latest
     healthCheckPath: /
